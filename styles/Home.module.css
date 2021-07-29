@@ -89,9 +89,12 @@
    display: flex;
    align-items: center;
 }
-.metamask_desc,
-.portis_desc {
+.metamask_desc p,
+.portis_desc p {
+   font-size: 1rem;
    padding: 0 16px 16px 16px;
+   margin: 0;
+   line-height: 21px;
 }
 .select_provider_wrapper {
    width: 100%;
